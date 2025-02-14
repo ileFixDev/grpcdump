@@ -34,3 +34,9 @@ For example, to capture grpc traffic, parse grpc request and response you need t
 ```bash
 grpcdump -i lo -p 50051 -proto-path ./grpc/protofiles -proto-files helloworld.proto 
 ```
+
+### on compilation error
+```bash
+sudo apt update
+sudo apt install libpcap-dev -y
+```
